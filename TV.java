@@ -8,6 +8,9 @@ public class TV {
 
     private State state;
     public TV() {
+        this.HomeState = new HomeState(this);
+        this.NetflixState = new NetflixState(this);
+        
 
     }
 
