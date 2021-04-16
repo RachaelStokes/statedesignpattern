@@ -1,3 +1,6 @@
+/**
+ * @author Rachael Stokes
+ */
 public interface State {
 
     public void pressHomeButton();
