@@ -10,8 +10,8 @@ public class TV {
     public TV() {
         this.HomeState = new HomeState(this);
         this.NetflixState = new NetflixState(this);
-        
-
+        this.HuluState = new HuluState(this);
+        this.state = HomeState;
     }
 
     public void pressHomeButton() {
